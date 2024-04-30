@@ -26,8 +26,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-4 py-16 px-20 rounded-lg bg-[#242424]">
             <h1 className="text-[#ffff]">Crie sua primeira playlist</h1>
-            <h2 className="text-[#ffff]">É fácil, vamos te ajudar</h2>
-            <button></button>
+            <h2 className="text-[#ffff]">É fácil, vamos te ajudar.</h2>
+            <button className="bg-[#ffff] text-black rounded-full">Criar playlist</button>
           </div>
         </div>
       </div>
