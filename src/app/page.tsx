@@ -24,10 +24,15 @@ export default function Home() {
               arrowforward
             </button>
           </div>
-          <div className="flex flex-col gap-4 py-16 px-20 rounded-lg bg-[#242424]">
+          <div className="flex flex-col gap-4 py-4 px-5 w-full h-[8.4rem] rounded-lg bg-[#242424]">
             <h1 className="text-[#ffff]">Crie sua primeira playlist</h1>
             <h2 className="text-[#ffff]">É fácil, vamos te ajudar.</h2>
             <button className="bg-[#ffff] text-black rounded-full">Criar playlist</button>
+          </div>
+          <div className="flex flex-col gap-4 py-4 px-5 w-full h-[8.4rem] rounded-lg bg-[#242424]">
+            <h1 className="text-[#ffff]">Que tal seguir um podcast novo?</h1>
+            <h2 className="text-[#ffff]">Avisaremos você sobre novos episódios.</h2>
+            <button className="bg-[#ffff] text-black rounded-full gap-5">Explore podcasts</button>
           </div>
         </div>
       </div>
