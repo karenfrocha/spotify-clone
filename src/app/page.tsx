@@ -55,7 +55,47 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row w-screen h-screen p-2 bg-[#242424]"></div>
+      <div className="flex flex-col w-screen h-screen p-2 bg-[#242424]">
+        <div className="flex flex-row w-full h-16 p-4 bg-slate-400">
+          <div className="flex flex-row w-full h-10 gap-4 py-1 px-3 items-center justify-between text-[#a7a7a7] font-bold text-base bg-red-400">
+            <div>
+              <button className="flex justify-center items-center p-2 size-8 hover:text-white hover:bg-white/5 rounded-full cursor-pointer">
+                <span className="material-icons-outlined size-4">
+                  arrow_back_ios
+                </span>
+              </button>
+              <button className="flex justify-center items-center p-2 size-8 hover:text-white hover:bg-white/5 rounded-full cursor-pointer">
+                <span className="material-icons-outlined size-4">
+                  arrow_forward_ios
+                </span>
+              </button>
+            </div>
+            <div>
+              <button className="bg-white rounded-full py-1 px-4 hover:scale-105">
+                <span className="text-sm text-black font-bold">
+                  Ver planos premium
+                </span>
+              </button>
+              <button className="bg-black rounded-full py-1 px-4 hover:scale-105">
+                <span className="text-sm text-white font-bold">
+                  Instalar aplicativo
+                </span>
+              </button>
+              <button className="flex justify-center items-center p-2 size-8 hover:text-white hover:bg-white/5 rounded-full cursor-pointer">
+                <span className="material-icons-outlined size-4">
+                  notifications
+                </span>
+              </button>
+              <button className="bg-white rounded-full py-1 px-4 hover:scale-105">
+                <span className="text-sm text-black font-bold">
+                  Usuário
+                </span>
+              </button>
+            </div>
+            {/* parei aqui */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
